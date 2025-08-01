@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepDiveDetail - Insights</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F9F7F7; /* Off-white background */
+            color: #112D4E; /* Dark Blue text for general content */
+        }
+        .container {
+            max-width: 1200px; /* Wider container for content */
+        }
+        .text-green-accent {
+            color: #00ff00; /* Vibrant green color, adjust as needed */
+        }
+        /* Custom color for specific text elements like "Read More" */
+        .text-blue-accent {
+            color: #3F72AF;
+        }
+        /* Custom font for blog title - similar to the image */
+        .blog-title-font {
+            font-family: 'Inter', sans-serif; /* Using Inter, but can be changed to a specific serif if preferred */
+            font-weight: 800; /* Extra bold for impact */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header Section (Copied from index.html) -->
+    <header class="bg-[#F9F7F7] py-6 sticky top-0 z-50 transition-colors duration-500" id="main-header">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Site Title / Logo with GIF -->
+            <div class="flex items-center space-x-2">
+                <!-- Logo now links to the home section -->
+                <a href="index.html#home" class="flex items-center space-x-2">
+                    <div class="text-2xl font-bold text-[#112D4E]" id="site-title">
+                        DeepDiveDetail
+                    </div>
+                    <!-- GIF added here -->
+                    <img src="http://googleusercontent.com/file_content/2" alt="Animated Icon" class="h-8 w-8 object-contain">
+                </a>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="flex space-x-8">
+                    <li><a href="index.html#home" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">HOME</a></li>
+                    <li><a href="index.html#about" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">ABOUT</a></li>
+                    <li><a href="index.html#works" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">WORKS</a></li>
+                    <!-- INSIGHTS link is now bold and points to this page's top -->
+                    <li><a href="insights.html#top" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300 font-bold">INSIGHTS</a></li>
+                    <li><a href="index.html#contact" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Insights Hero/Header Section -->
+    <section id="top" class="bg-[#112D4E] py-16">
+        <div class="container mx-auto px-4">
+            <!-- BLOG text color changed to off-white and bold -->
+            <p class="text-[#F9F7F7] text-lg font-semibold mb-4 uppercase font-bold">BLOG</p>
+            <h1 class="text-6xl md:text-7xl font-extrabold text-[#F9F7F7] blog-title-font leading-tight">
+                Industry Trends and Insights
+            </h1>
+        </div>
+    </section>
+
+    <!-- Insights Content Grid -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Insight Article 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x400/DDE4F0/112D4E?text=Insight+1" alt="Insight 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-[#112D4E] mb-2">The Future of Quant Marketing</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        A deep dive into emerging trends and analytical approaches shaping the marketing landscape.
+                    </p>
+                    <a href="https://festivalife.tistory.com/" target="_blank" class="text-blue-accent hover:underline text-sm font-medium">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Insight Article 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x400/DDE4F0/112D4E?text=Insight+2" alt="Insight 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-[#112D4E] mb-2">Leveraging AI in Campaign Optimization</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Exploring how artificial intelligence is revolutionizing campaign performance and targeting.
+                    </p>
+                    <a href="https://festivalife.tistory.com/" target="_blank" class="text-blue-accent hover:underline text-sm font-medium">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Insight Article 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x400/DDE4F0/112D4E?text=Insight+3" alt="Insight 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-[#112D4E] mb-2">Understanding Consumer Behavior Metrics</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        A meticulous look at the key metrics that drive consumer insights and strategic decisions.
+                    </p>
+                    <a href="https://festivalife.tistory.com/" target="_blank" class="text-blue-accent hover:underline text-sm font-medium">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Add more articles as needed -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x400/DDE4F0/112D4E?text=Insight+4" alt="Insight 4" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-[#112D4E] mb-2">The Ethics of Data-Driven Marketing</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Navigating the moral landscape of advanced data analytics in marketing campaigns.
+                    </p>
+                    <a href="https://festivalife.tistory.com/" target="_blank" class="text-blue-accent hover:underline text-sm font-medium">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x400/DDE4F0/112D4E?text=Insight+5" alt="Insight 5" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-[#112D4E] mb-2">Predictive Analytics for Business Growth</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        How predictive models can forecast market trends and inform strategic business decisions.
+                    </p>
+                    <a href="https://festivalife.tistory.com/" target="_blank" class="text-blue-accent hover:underline text-sm font-medium">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x400/DDE4F0/112D4E?text=Insight+6" alt="Insight 6" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-[#112D4E] mb-2">The Power of A/B Testing in Digital Marketing</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        A comprehensive guide to designing and interpreting effective A/B tests for optimal results.
+                    </p>
+                    <a href="https://festivalife.tistory.com/" target="_blank" class="text-blue-accent hover:underline text-sm font-medium">Read More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section (similar to main page) -->
+    <footer class="bg-[#112D4E] text-[#F9F7F7] opacity-60 py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 DeepDiveDetail. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
