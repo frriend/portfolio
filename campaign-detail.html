@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepDiveDetail - Project Title</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F9F7F7; /* Off-white background */
+            color: #112D4E; /* Dark Blue text for general content */
+        }
+        .container {
+            max-width: 1200px; /* Wider container for content */
+        }
+        .text-dark-primary {
+            color: #112D4E; /* Main dark text color */
+        }
+        .text-dark-secondary {
+            color: #334155; /* Slightly lighter dark for secondary text */
+        }
+        .text-light-primary { /* Not directly used in this version, but kept for consistency */
+            color: #F9F7F7;
+        }
+        .text-light-secondary { /* Not directly used in this version, but kept for consistency */
+            color: #E0E4EB;
+        }
+        .text-green-accent {
+            color: #00ff00; /* Vibrant green color, adjust as needed */
+        }
+        .text-blue-accent { /* Not used in this page's design */
+            color: #3F72AF;
+        }
+        .project-content-bg {
+            background-color: #E0E4EB; /* Light gray for content blocks on light background */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header Section (Copied from index.html) -->
+    <header class="bg-[#F9F7F7] py-6 sticky top-0 z-50 transition-colors duration-500" id="main-header">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Site Title / Logo with GIF -->
+            <div class="flex items-center space-x-2">
+                <!-- Logo now links to the home section -->
+                <a href="index.html#home" class="flex items-center space-x-2">
+                    <div class="text-2xl font-bold text-[#112D4E]" id="site-title">
+                        DeepDiveDetail
+                    </div>
+                    <!-- GIF added here -->
+                    <img src="http://googleusercontent.com/file_content/2" alt="Animated Icon" class="h-8 w-8 object-contain">
+                </a>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="flex space-x-8">
+                    <li><a href="index.html#home" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">HOME</a></li>
+                    <li><a href="index.html#about" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">ABOUT</a></li>
+                    <!-- WORKS link is now bold and dark blue -->
+                    <li><a href="index.html#works" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300 font-bold">WORKS</a></li>
+                    <li><a href="insights.html" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">INSIGHTS</a></li>
+                    <li><a href="index.html#contact" class="nav-link text-[#112D4E] hover:text-green-accent transition-colors duration-300">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Detail Section -->
+    <section class="bg-[#F9F7F7] py-16 min-h-screen">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row gap-12">
+            <!-- Left Column: Project Info -->
+            <div class="md:w-1/2">
+                <h1 class="text-7xl lg:text-8xl font-extrabold text-dark-primary mb-12 leading-none">KLOB</h1>
+
+                <p class="text-dark-secondary text-xl font-semibold mb-2">Services Provided</p>
+                <p class="text-3xl font-medium text-dark-primary mb-8">Branding, Website Design, Image Making</p>
+
+                <p class="text-dark-secondary text-xl font-semibold mb-2">Team Members</p>
+                <p class="text-3xl font-medium text-dark-primary mb-12">Arlo Fay, Donald Sour</p>
+
+                <!-- You can add more project-specific details here -->
+            </div>
+
+            <!-- Right Column: Project Description & Content -->
+            <div class="md:w-2/3">
+                <p class="text-lg leading-relaxed text-dark-secondary mb-12">
+                    This is where the project description goes. Give an overview or go in depth - what it's all about, what inspired you, how you created it, or anything else you'd like visitors to know. To add Project descriptions, go to Manage Projects.
+                </p>
+
+                <!-- Placeholder for main project image/content -->
+                <div class="project-content-bg w-full h-96 flex items-center justify-center text-xl text-dark-secondary rounded-lg mb-8">
+                    <img src="https://placehold.co/800x600/E0E4EB/112D4E?text=Project+Main+Content" alt="Project Main Content" class="w-full h-full object-cover rounded-lg">
+                </div>
+
+                <!-- Additional project images/sections can go here -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="project-content-bg w-full h-64 flex items-center justify-center text-xl text-dark-secondary rounded-lg">
+                        <img src="https://placehold.co/400x300/E0E4EB/112D4E?text=Detail+Image+1" alt="Detail Image 1" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                    <div class="project-content-bg w-full h-64 flex items-center justify-center text-xl text-dark-secondary rounded-lg">
+                        <img src="https://placehold.co/400x300/E0E4EB/112D4E?text=Detail+Image+2" alt="Detail Image 2" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section (Minimalist) -->
+    <footer class="bg-[#F9F7F7] py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-dark-secondary opacity-60">&copy; 2025 DeepDiveDetail. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
